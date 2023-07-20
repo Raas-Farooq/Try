@@ -1,0 +1,48 @@
+html,body{
+    width:100%;
+    height:100%;
+}
+.buff{
+    margin:80px;
+}.favor{
+    min-width:97vw;
+    min-height:100vh;
+    background-color:rgb(235, 152, 235);
+    color:yellow;
+    background-position: center;
+    background-size:cover;
+    background-image:url("https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_1280.jpg");
+    /* display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column; */
+}
+.top_con_row{
+    height:100vh;
+}
+
+/* .section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} */
+.h2+h5{
+    color:greenyellow
+}
+hr{
+    border:2px solid blue;
+    opacity:1;
+    width:80px;
+    margin:1rem auto;
+}
+
+.btn-danger>a{
+    color:white;
+    text-decoration:none
+}
+.btn{
+    border-radius:60%;
+}
+.btn-danger:hover{
+    background-color:brown
+}
